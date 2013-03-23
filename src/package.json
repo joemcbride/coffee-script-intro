@@ -9,6 +9,7 @@
     "express": "3.1.0",
     "jade": "*",
     "coffee-script": "1.4.0",
-    "coffee-script-redux": "*"
+    "coffee-script-redux": "*",
+    "coffeepot": "*"
   }
 }
