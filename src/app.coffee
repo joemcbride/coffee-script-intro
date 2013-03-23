@@ -23,7 +23,7 @@ app.configure ->
     app.use app.router
 
     publicDir = __dirname + '/public'
-    app.use coffeepot publicDir
+    #app.use coffeepot publicDir
     app.use express.static publicDir
 
 app.configure 'development', ()->

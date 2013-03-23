@@ -9,7 +9,6 @@ class Controllers
     controller: (name) =>
         if typeof @controller_cache[name] == 'undefined'
             filepath = path.join(__dirname, name) + '_controller.coffee'
-            console.log 'filpath', filepath
             controller = require filepath
             @controller_cache[name] = new controller(@sys)
 

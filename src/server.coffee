@@ -1,5 +1,5 @@
 # Include the CoffeeScript interpreter so that .coffee files will work
-coffee = require 'coffee-script'
+#coffee = require 'coffee-script'
 http = require 'http'
 
 # Include our application file
