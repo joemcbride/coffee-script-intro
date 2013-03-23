@@ -40,8 +40,6 @@ describe "Pirates and Ninjas", ->
         pirate = new Pirate 'Kalag the Black', 'argh'
         pistol = new Pistol 6
 
-        pistol.get_random()
-
         while ninja.health > 0 and pirate.health > 0
 
             ninja.attack pirate, katana

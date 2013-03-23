@@ -7,7 +7,7 @@ class Sprite
         say = @say()
         damage = sprite.do_damage weapon
         sound = weapon.get_sound()
-        console.log "#{say}, #{@name} attacking #{sprite.name} with #{weapon.name} for #{damage} damage - #{sound}"
+        console.log "#{say}, #{@name} attacked #{sprite.name} with a #{weapon.name} for #{damage} damage - #{sound}"
 
         console.log "#{@name} has killed #{sprite.name}!" if sprite.health <= 0
 
